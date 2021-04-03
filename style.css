@@ -1,0 +1,151 @@
+body {
+    text-align: center;
+}
+
+#Profile {
+    width: 150px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 9px;
+}
+
+h1 {
+    color: blue;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 300;
+    font-family: 'Fredoka One', cursive;
+}
+
+h2 {
+    color: purple;
+    font-family: 'Lobster', cursive;
+}
+
+#Welcome {
+    background: linear-gradient(#07f51b 0%, #f28107 100%);
+    height: 800px;
+    position: absolute;
+    overflow: hidden;
+    display: table;
+    width: 100%;
+    height: 50%;
+}
+
+#Cricket {
+    width: 200px;
+}
+
+#Favh {
+    background: linear-gradient(#02f5c4 0%, #e5ed02 100%);
+    padding: 50px;
+    margin-top: 370px;
+    width: 100%;
+}
+
+#heading {
+    color: green;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 55px;
+}
+
+#Hobby {
+    color: red;
+    font-family: inherit;
+    font-size: 50px;
+}
+
+#Cricket {
+    border-style: solid;
+    border-color: purple;
+    border-radius: 50%;
+    border-width: 8px;
+    width: 140px;
+}
+
+p {
+    color: blue;
+    font-size: 20;
+    font-weight: 700;
+    margin-right: 80px;
+}
+
+#Videos {
+    background: linear-gradient(#f20602 0%, #27f502 100%);
+}
+
+#VHeading {
+    font-size: 60px;
+    color: yellow;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+#MyInspiration {
+    background: linear-gradient(#f58a18 0%, #f5221b 50%, #16e6f5 100%);
+}
+
+#IHeading {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 60px;
+}
+
+.CK {
+    margin: 30px;
+    border-style: solid;
+    border-color: purple;
+    border-width: 10px;
+    width: 300px;
+    height: 300px;
+    transition: transform .2s;
+}
+
+.CK:hover {
+    transform: scale(0.9);
+}
+#Contacts{
+    background: linear-gradient(#fa02f6 0%,#fc0390 100%);
+}
+#Contacts iframe{
+    width:100%;
+}
+#Contacts h1{
+    color:yellow;
+    font-size:60px;
+}
+#Contacts h3{
+    color:aqua;
+    display: inline;
+}
+.Menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.Lists {
+    float: left;
+    color: yellow;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+.Lists:hover {
+    background-color: pink;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
